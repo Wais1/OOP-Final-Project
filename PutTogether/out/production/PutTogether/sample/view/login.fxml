@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: green;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.LoginController">
+   <children>
+      <AnchorPane layoutX="-2.0" layoutY="108.0" prefHeight="295.0" prefWidth="704.0" style="-fx-background-color: white;">
+         <children>
+            <TextField fx:id="loginUsername" layoutX="208.0" layoutY="70.0" prefHeight="26.0" prefWidth="268.0" promptText="Username" />
+            <PasswordField fx:id="loginPassword" layoutX="208.0" layoutY="116.0" prefHeight="26.0" prefWidth="268.0" promptText="Password" />
+            <Label layoutX="305.0" layoutY="18.0" prefHeight="17.0" prefWidth="103.0" text="Login" textAlignment="RIGHT">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="loginButton" layoutX="258.0" layoutY="175.0" prefHeight="36.0" prefWidth="152.0" style="-fx-background-color: green;" text="Login" textFill="WHITE" />
+            <JFXButton fx:id="loginSignupButton" layoutX="274.0" layoutY="230.0" prefHeight="23.0" prefWidth="123.0" style="-fx-background-color: gray;" text="Sign Up" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="218.0" layoutY="54.0" prefHeight="17.0" prefWidth="230.0" text="Task Journal" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

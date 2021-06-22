@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.TodosController">
+   <children>
+      <ListView fx:id="eventList" layoutX="-1.0" layoutY="74.0" prefHeight="271.0" prefWidth="600.0" />
+      <TextField fx:id="descriptionTextField" layoutX="168.0" layoutY="25.0" prefHeight="26.0" prefWidth="312.0" promptText="Description" />
+      <TextField fx:id="taskNameField" layoutX="15.0" layoutY="25.0" prefHeight="26.0" prefWidth="139.0" promptText="Task name" />
+      <DatePicker fx:id="datePicker" layoutX="22.0" layoutY="363.0" prefHeight="26.0" prefWidth="119.0" />
+      <JFXButton fx:id="addButton" layoutX="496.0" layoutY="25.0" onAction="#addEvent" prefHeight="26.0" prefWidth="90.0" style="-fx-background-color: darkblue;" text="Create Task" textFill="WHITE" />
+   </children>
+</AnchorPane>
